@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internships</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Internship Opportunities</h1>
+    </header>
+    <main>
+        <section class="internship">
+            <h2>Web Development Internship</h2>
+            <p>Duration: 3 months</p>
+            <p>Period: June 2024 - August 2024</p>
+            <button onclick="viewDetails('web-dev')">View Details</button>
+        </section>
+        <section class="internship">
+            <h2>App Development Internship</h2>
+            <p>Duration: 4 months</p>
+            <p>Period: May 2024 - August 2024</p>
+            <button onclick="viewDetails('app-dev')">View Details</button>
+        </section>
+        <section class="internship">
+            <h2>Python Development Internship</h2>
+            <p>Duration: 6 months</p>
+            <p>Period: January 2024 - June 2024</p>
+            <button onclick="viewDetails('python-dev')">View Details</button>
+        </section>
+        <section class="internship">
+            <h2>Java Development Internship</h2>
+            <p>Duration: 5 months</p>
+            <p>Period: March 2024 - July 2024</p>
+            <button onclick="viewDetails('java-dev')">View Details</button>
+        </section>
+    </main>
+    <script>
+        function viewDetails(internship) {
+            alert(`Viewing details for ${internship} internship`);
+            // You can add logic here to redirect to a detailed page or display more info.
+        }
+    </script>
+</body>
+</html>
